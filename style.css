@@ -1,15 +1,14 @@
-body {
-  font-family: 'Inter', sans-serif;
-  
-}
-
 .banner {
-  background: url(/assets/banner.png)
+  background: url(./assets/banner.png)
     no-repeat center center;
   background-size: cover;
   padding-top: 20%;
   padding-bottom: 20%;
   color: #fff;
+}
+
+body {
+  font-family: 'Inter', sans-serif; 
 }
 
 .banner h2 {
@@ -63,7 +62,7 @@ body {
   border-width: 2px;
   border-radius: 20px;
   border-color: #34D399;
-  height: 400px;
+  min-height: 400px;
 }
 
 .solution {
@@ -88,11 +87,19 @@ body {
   font-size: 18px;
 }
 
+.movement p {
+  color: #000;
+}
+
+.movement a {
+  text-decoration: none;
+}
+
 .card-movement {
   border-width: 2px;
   border-radius: 20px;
   border-color: #008C59;
-  height: 500px;
+  min-height: 500px;
 }
 
 .card-movement h3 {
@@ -141,10 +148,6 @@ body {
   font-size: 18px;
 }
 
-/*
-.footer p {
-  font-size: 20px;
-} */
 
 .kontak span {
   display: inline-block;
