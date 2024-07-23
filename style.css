@@ -1,0 +1,161 @@
+body {
+  font-family: 'Inter', sans-serif;
+  
+}
+
+.banner {
+  background: url(/assets/banner.png)
+    no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+
+.banner h2 {
+  width: 50%;
+  font-weight: 700;
+  font-size: 55px;
+}
+
+.banner p {
+  width: 50%;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.about h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.about p {
+  font-weight: 400;
+  text-align: justify;
+}
+
+.title-section {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.title-desc {
+  font-weight: 400;
+}
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #008C59;
+}
+
+.lingkaran img {
+  position: relative;
+  top: 30px;
+}
+
+.solution-card {
+  background-color: #008C59;
+  border-width: 2px;
+  border-radius: 20px;
+  border-color: #34D399;
+  height: 400px;
+}
+
+.solution {
+  background-color: #008C59;
+}
+
+.solution h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 35;
+}
+
+.solution h5 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 35;
+}
+
+.solution p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.card-movement {
+  border-width: 2px;
+  border-radius: 20px;
+  border-color: #008C59;
+  height: 500px;
+}
+
+.card-movement h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: start;
+  position: relative;
+  top: 270px;
+}
+
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 10px;
+  position: relative;
+  top: 270px;
+  margin-top: 5px;
+  background-color: grey;
+  border-color: grey;
+}
+
+.card-movement p {
+  text-align: start;
+  font-weight: 400;
+}
+
+.partner img {
+  max-height: 90px;
+}
+
+.footer {
+  background-color: #008C59;
+  color: #fff;
+  padding: 40px 0; 
+}
+
+.footer img {
+  height: 100px;
+}
+
+.footer h5 {
+  font-size: 18px;
+}
+
+/*
+.footer p {
+  font-size: 20px;
+} */
+
+.kontak span {
+  display: inline-block;
+  min-width: 50px;
+}
+
+.bottom-footer {
+  margin-top: 120px;
+}
+
+.bottom-footer img {
+  max-height: 35px;
+  aspect-ratio: 1 / 1;
+}
