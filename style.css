@@ -9,7 +9,23 @@
 
 body {
   font-family: 'Inter', sans-serif; 
+  scroll-behavior: smooth;
 }
+
+section {
+  position: relative;
+  padding-top: 60px; /* Sesuaikan dengan tinggi navbar Anda */
+  margin-top: -60px; /* Sesuaikan dengan tinggi navbar Anda */
+}
+
+section::before {
+  content: "";
+  display: block;
+  height: 60px; /* Sesuaikan dengan tinggi navbar Anda */
+  margin-top: -60px; /* Sesuaikan dengan tinggi navbar Anda */
+  visibility: hidden;
+}
+
 
 .banner h2 {
   width: 50%;
@@ -128,6 +144,14 @@ body {
 .card-movement p {
   text-align: start;
   font-weight: 400;
+}
+
+.card-movement:hover .card-title {
+  color: #008C59;
+}
+.card-movement:hover .btn-circle {
+  background-color: #008C59;
+  border-color: #008C59; 
 }
 
 .partner img {
