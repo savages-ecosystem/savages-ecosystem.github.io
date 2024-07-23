@@ -20,6 +20,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon_package_v0.16/android-chrome-96x96.png">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -454,8 +457,12 @@
             >
               <img src="assets/youtube.png" />
             </a>
-            <img class="p-1" src="assets/facebook.png" />
-
+            <a
+              href="https://www.linkedin.com/company/savages-ecosystem"
+              target="_blank"
+            >
+             <img class="p-1" src="assets/linkedin.png" />
+            </a>
             <img class="p-1" src="assets/twitter.png" />
             <a
               href="https://www.instagram.com/savagesecosystem/"
@@ -473,5 +480,26 @@
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      // JavaScript untuk menambahkan kelas aktif pada item navigasi berdasarkan scroll
+      document.addEventListener('DOMContentLoaded', function () {
+        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+        const sections = document.querySelectorAll('section');
+  
+        function setActiveLink() {
+          let index = sections.length;
+  
+          while (--index && window.scrollY + 50 < sections[index].offsetTop) {}
+  
+          navLinks.forEach((link) => link.classList.remove('active'));
+          navLinks[index].classList.add('active');
+        }
+  
+        setActiveLink();
+        window.addEventListener('scroll', setActiveLink);
+      });
+    </script>
+  
   </body>
 </html>
