@@ -206,11 +206,9 @@ section::before {
     font-weight: 400;
     text-align: start;
   }
+}
 
-  /* .card-movement:nth-child(2) {
-    margin-top: 20px; 
-  } */
-
+@media (max-width: 600px) {
   .column-card {
     margin-top: 40px; 
   }
