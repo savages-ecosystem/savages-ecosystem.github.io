@@ -195,3 +195,23 @@ section::before {
   max-height: 35px;
   aspect-ratio: 1 / 1;
 }
+
+@media (max-width: 770px) {
+  .banner h2 {
+    margin-top: 10px;
+    font-size: 1.5rem; /* Smaller font size for mobile devices */
+  }
+
+  .banner p {
+    font-weight: 400;
+    text-align: start;
+  }
+
+  /* .card-movement:nth-child(2) {
+    margin-top: 20px; 
+  } */
+
+  .column-card {
+    margin-top: 40px; 
+  }
+}
